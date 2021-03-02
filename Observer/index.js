@@ -12,12 +12,12 @@ const rl = readline.createInterface({
 function main(){
  
     let station = new WeatherStation();
-    let phone = new Phone();
-    let tablet = new Tablet()
-    let tv = new TV();
-    station.add(phone)
-    station.add(tablet)
-    station.add(tv)
+    let cphone = new Phone("Chadi");
+    let stablet = new Tablet("Salam")
+    let mtv = new TV("Mostafa");
+    station.add(cphone)
+    station.add(stablet)
+    station.add(mtv)
     // station.notify("sunny");
 
 

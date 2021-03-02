@@ -1,6 +1,7 @@
 class Phone{
-    constructor(){
-        this.data = "Data on the Phone is: "
+    constructor(name){
+        this.name = name
+        this.data = `Data on ${name}'s Phone is: `
     }
 
     update(weatherData){
@@ -9,8 +10,9 @@ class Phone{
 }
 
 class Tablet{
-    constructor(){
-        this.data = "Data on the Tablet is: "
+    constructor(name){
+        this.name = name
+        this.data = `Data on ${name}'s Tablet is: `
     }
 
     update(weatherData){
@@ -19,8 +21,9 @@ class Tablet{
 }
 
 class TV{
-    constructor(){
-        this.data = "Data on the TV is: "
+    constructor(name){
+        this.name = name
+        this.data = `Data on ${name}'s TV is: `
     }
 
     update(weatherData){
